@@ -45,7 +45,7 @@ Mayoritas order tercatat sebagai **Shipped tanpa konfirmasi Delivered**. Ini bis
 
 ## Dashboard
 
-![Dashboard Preview](Dashboard.png)
+![Dashboard Preview](Dahboard.png)
 
 ---
 
