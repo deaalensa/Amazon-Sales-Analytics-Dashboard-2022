@@ -49,7 +49,7 @@ Mayoritas order tercatat sebagai **Shipped tanpa konfirmasi Delivered**. Ini bis
 
 ---
 
-## Teknis
+## Proses Pengolahan Data
 
 Data diproses melalui pipeline **ETL** (Extract → Transform → Load):
 - **Extract** — Dataset CSV dari Kaggle (128K baris)
