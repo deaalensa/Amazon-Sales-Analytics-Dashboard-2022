@@ -1,4 +1,4 @@
-# 📦 Amazon Sales Analytics Dashboard 2022
+# Amazon Sales Analytics Dashboard 2022
 
 Analisis terhadap **128.000+ transaksi penjualan Amazon India** periode April–Juni 2022 untuk menjawab pertanyaan bisnis seputar performa revenue, kategori produk, dan efisiensi pengiriman.
 
@@ -6,7 +6,7 @@ Analisis terhadap **128.000+ transaksi penjualan Amazon India** periode April–
 
 ---
 
-## ❓ Pertanyaan Bisnis
+## Pertanyaan Bisnis
 
 1. Kategori produk mana yang menghasilkan revenue terbesar?
 2. Bagaimana tren revenue harian selama April–Juni 2022?
@@ -15,7 +15,7 @@ Analisis terhadap **128.000+ transaksi penjualan Amazon India** periode April–
 
 ---
 
-## 📊 Ringkasan Metrik
+## Ringkasan Metrik
 
 | Metrik | Nilai |
 |--------|-------|
@@ -27,7 +27,7 @@ Analisis terhadap **128.000+ transaksi penjualan Amazon India** periode April–
 
 ---
 
-## 💡 Key Findings & Insight
+## Key Findings & Insight
 
 ### 1. Kategori Set Mendominasi Pasar
 Kategori **Set** menyumbang hampir **50% dari total GMV** (₹39M dari ₹78.59M), jauh melampaui Kurta di posisi kedua (₹21M). Ini mengindikasikan bahwa pakaian set/koordinat adalah produk andalan yang perlu dijaga stok dan promosinya secara konsisten.
@@ -43,13 +43,13 @@ Mayoritas order tercatat sebagai **Shipped tanpa konfirmasi Delivered**. Ini bis
 
 ---
 
-## 📸 Dashboard
+## Dashboard
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](dashboard.png)
 
 ---
 
-## 🔧 Teknis Singkat
+## Teknis
 
 Data diproses melalui pipeline **ETL** (Extract → Transform → Load):
 - **Extract** — Dataset CSV dari Kaggle (128K baris)
