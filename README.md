@@ -51,11 +51,12 @@ Mayoritas order tercatat sebagai **Shipped tanpa konfirmasi Delivered**. Ini bis
 
 ## Proses Pengolahan Data
 
-Data diproses melalui pipeline **ETL** (Extract → Transform → Load):
-- **Extract** — Dataset CSV dari Kaggle (128K baris)
-- **Transform** — Pembersihan data dengan Python & Pandas (handling missing values, format tanggal, rename kolom)
-- **Load** — Disimpan ke database MySQL
-- **Visualize** — Dashboard interaktif di Power BI
+Data diproses melalui workflow end-to-end:
+
+- Extract — Dataset CSV dari Kaggle (128K baris)
+- Transform — Pembersihan data dengan Python & Pandas (handling missing values, format tanggal, rename kolom)
+- Load — Disimpan ke database MySQL via SQLAlchemy
+- Visualize — Dashboard interaktif di Power BI
 
 ---
 
